@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kshitij Bisen Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: antiquewhite;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+        .header-text {
+            max-width: 600px;
+            padding: 10px;
+        }
+        .header-title {
+            font-size: 2em;
+            margin: 0;
+        }
+        .section {
+            background-color: aliceblue;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .projects-section {
+            background-color: azure;
+        }
+        h2, h3 {
+            margin-top: 0;
+        }
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .project-text {
+            flex: 1;
+            padding: 10px;
+        }
+        .project-img {
+            width: 200px;
+            height: 100px;
+            margin: 10px;
+        }
+        .contact-section {
+            background-color: darkslategrey;
+            color: azure;
+            padding: 20px;
+        }
+        .contact-details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .contact-item {
+            flex: 1;
+            min-width: 100px;
+            padding: 10px;
+            text-align: center;
+        }
+        @media (min-width: 600px) {
+            header {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .header-container {
+                flex-direction: row;
+                align-items: flex-start;
+            }
+            .header-content {
+                flex-direction: row;
+                text-align: left;
+            }
+            .profile-img {
+                margin: 0 20px 0 0;
+            }
+            .contact-details {
+                flex-direction: row;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="kshitijdp.jfif" alt="Profile Picture" class="profile-img">
+            <div class="header-content">
+                <div class="header-text">
+                    <h1 class="header-title">Kshitij Bisen</h1>
+                    <p>Final Year AI & Data Science Engineering Student @ VIT Pune | Innovator & Lifelong Learner</p>
+                    <p>I am a final year student pursuing a degree in AI & Data Science Engineering at VIT Pune. My passion lies in continuous learning and innovation, which drives me to explore and excel in various fields such as Java, AI, ML, DL, NLP, and Web Development.</p>
+                    <p>Key Skills & Interests:</p>
+                    <ul>
+                        <li>Programming & Development: Proficient in Java, MERN Stack</li>
+                        <li>Artificial Intelligence & Machine Learning: Deep Learning, Natural Language Processing, and Data Science.</li>
+                        <li>Other Technologies: DevOps</li>
+                    </ul>
+                    <p>I am always open to learning and value opportunities for growth and knowledge enrichment. I believe in the power of collaboration and am always eager to share my knowledge and help others.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="section">
+        <h2>About Me</h2>
+        <h3>Education</h3>
+        <p>VISHWAKARMA INSTITUTE OF TECHNOLOGY, PUNE Sep. 2020 – May 2024</p>
+        <p>BTECH in ARTIFICIAL INTELLIGENCE AND DATA SCIENCE PUNE, INDIA</p>
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>Languages: Java, Python, C, HTML/CSS, Javascript, SQL, Numpy, Pandas, Scikit-Learn, Tensorflow, Matplotlib</li>
+            <li>Developer Tools: Git, GitHub</li>
+            <li>Technologies: Machine Learning, Deep Learning, NLP, Software Development</li>
+            <li>Soft Skills: Leadership, Teamwork, Problem Solving, Critical Thinking</li>
+        </ul>
+    </div>
+    <div class="section projects-section">
+        <h2>Projects</h2>
+        <div class="project">
+            <div class="project-text">
+                <h3>PAINTING CLASSIFICATION USING ENSEMBLE LEARNING</h3>
+                <ul>
+                    <li>Applied Transfer learning models from TensorFlow Hub to predict the difference between art and the clicked photographs. Applied Ensemble Learning for Painting type Classification.</li>
+                    <li>Performed Data Augmentation on images and built models using TensorFlow.</li>
+                    <li>Increased Accuracy by 5 percent and Decreased Loss.</li>
+                </ul>
+            </div>
+            <img src="kshitijdp.jfif" alt="Project Image" class="project-img">
+        </div>
+        <div class="project">
+            <div class="project-text">
+                <h3>MAILTICKS - CLUTTER FREE INBOX</h3>
+                <ul>
+                    <li>Developed an email management Web Application that fetches mails from Gmail and categorizes them into different dynamically added categories.</li>
+                    <li>Developed Web Application using React JS and MUI as front end and Node JS and Express JS in back end.</li>
+                    <li>Used Google Cloud’s Vertex AI LLM Tools for Dynamic Categorization and Grouping.</li>
+                    <li>For Database used MongoDB and mongoose to integrate it with the Web Application.</li>
+                    <li>Improved convenience and Clutter Free Emails.</li>
+                </ul>
+            </div>
+            <img src="kshitijdp.jfif" alt="Project Image" class="project-img">
+        </div>
+    </div>
+    <div class="section contact-section">
+        <h2>Contact</h2>
+        <div class="contact-details">
+            <div class="contact-item">8180023381</div>
+            <div class="contact-item">kshitijbisen.pune@gmail.com</div>
+            <div class="contact-item">linkedin.com/in/kshitij-bisen</div>
+            <div class="contact-item">github.com/kshitijbisen</div>
+        </div>
+    </div>
+</body>
+</html>
