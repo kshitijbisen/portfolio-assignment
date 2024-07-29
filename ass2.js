@@ -92,6 +92,10 @@ function createInstanceCounter(){
 }
 //task 9
 
+function(num1,num2,operation){
+
+}
+
 //task 10
 function t10(arr){
     let total=0;
@@ -100,23 +104,3 @@ function t10(arr){
     });
     return total;
 }
-
-const students = [
-    { name: "Alice", marks: 5 },
-    { name: "Bob", marks: 78 },
-    { name: "Charlie", marks: 92 },
-    { name: "David", marks: 8 },
-    { name: "Eva", marks: 95 }
-  ];
-
-let sen="i love you"
-let arr =t10(students);
-sen = t5(sen);
-console.log(arr);
-const counter1 = createInstanceCounter();
-const counter2 = createInstanceCounter();
-
-console.log(counter1()); // Output: 1
-console.log(counter1()); // Output: 2
-console.log(counter2()); // Output: 1
-console.log(counter2()); // Output: 2
